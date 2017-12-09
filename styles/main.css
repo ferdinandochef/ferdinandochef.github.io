@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    visibility: hidden;
+}
+
+.main-layout {
+    width: 1140px;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url("../images/bg-main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    @media (max-width: 600px) {
+        .main-layout  {
+            width: 95%;
+        }
+    }
